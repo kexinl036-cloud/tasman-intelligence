@@ -1,0 +1,9 @@
+market,date,price,source_url,operator_verified
+melbourne,2025-12-31,973500,https://reiv.com.au/our-industry/news/latest-data-reflects-the-uptick-in-popularity-of-units-and-apartments,no
+melbourne,2026-03-31,991500,https://reiv.com.au/our-industry/news/melbourne-s-outer-suburbs-and-regional-victoria-lead-in-quarterly-growth,no
+melbourne,2026-06-30,952500,https://reiv.com.au/our-industry/news/median-price-data-highlights-victoria-s-long-term-property-market-resilience,no
+melbourne,2026-09-30,943000,https://reiv.com.au/our-industry/news/regional-victoria-leads-property-growth-as-more-affordable-homes-outperform,no
+auckland,2025-12-31,1015000,https://www.reinz.co.nz/Web/Web/News/News-Articles/Market-updates/REINZ_December_2025_Data.aspx,no
+auckland,2026-05-31,1005000,https://www.reinz.co.nz/Web/Web/News/News-Articles/Market-updates/REINZ_May_2026_Data.aspx,no
+auckland,2026-08-31,950000,https://www.knowledgeauckland.org.nz/publications/auckland-economic-update-october-2026/,no
+auckland,2026-09-30,950000,https://www.reinz.co.nz/Web/Web/News/News-Articles/Market-updates/Measured_national_picture_continues_alongside_strong_regional_results.aspx,no

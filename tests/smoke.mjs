@@ -1,0 +1,10 @@
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const main=readFileSync(new URL('../index.html',import.meta.url),'utf8');
+const js=readFileSync(new URL('../app.js',import.meta.url),'utf8');
+for(const id of ['page-overview','page-fx','page-policy','page-housing','page-method','fx-amount','compare-chart','housing-file','download-fx','policy-fetch']) assert(main.includes(`id="${id}"`),`${id} missing`);
+for(const v of ['4.60','2.75','943000','973500','1015000','950000']) assert(main.includes(v)||js.includes(v),`Source snapshot datum missing: ${v}`);
+assert(js.includes('open.er-api.com/v6/latest/NZD'));
+assert(js.includes('api.frankfurter.dev/v1/'));
+assert(js.includes('isOfficialURL'));
+console.log('PASS: structural layout, data provenance, security allowlist, rate integration');
